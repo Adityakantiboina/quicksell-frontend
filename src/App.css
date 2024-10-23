@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+/* Navbar styles */
+.navbar {
+  padding: 10px;
+  background-color: #f0f0f0; /* Change as needed */
+  border: 1px solid #ddd; /* Optional */
+  border-radius: 4px; /* Optional */
+  margin-bottom: 10px; /* Space between navbar and filter container */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #d1d2d4; /* Change as needed */
+  color: rgb(9, 4, 4);
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Existing styles remain unchanged */
+.filter-container {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter-table {
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  color: #333;
+}
+
+.select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.ticket {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ticket p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.ticket img {
+  vertical-align: middle;
+}
+
+.add-button {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.group-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-container div {
+  flex: 1;
+  padding: 10px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.group-header img {
+  margin-right: 5px;
+}
+
+.group-header .count {
+  color: gray;
+  margin-left: 10px;
 }
